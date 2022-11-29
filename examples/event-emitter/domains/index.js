@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 
 const domains = [
-  { path: '/recipes', module: require('./recipes') },
   { path: '/orders', module: require('./orders') },
 ];
 
